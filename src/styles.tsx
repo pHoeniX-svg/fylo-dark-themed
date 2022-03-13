@@ -60,6 +60,7 @@ const basicStyles = css`
   /* Set core body defaults */
   body {
     min-height: 100vh;
+    background-color: hsl(var(--clr-800));
     font-family: var(--ff-primary);
     font-size: var(--fs-300);
     line-height: 1.5;
