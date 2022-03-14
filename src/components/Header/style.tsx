@@ -41,7 +41,7 @@ const Hero = styled.section`
   text-align: center;
 
   h1 {
-    font-size: var(--fs-800);
+    font-size: var(--fs-900);
   }
   p {
     font-size: var(--fs-600);

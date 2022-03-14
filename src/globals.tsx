@@ -13,8 +13,8 @@ const basicStyles = css`
     --clr-100: 0 0% 100%;
 
     /* font-sizes */
-    --fs-900: 5.6rem;
-    --fs-800: 3.6rem;
+    --fs-900: 3.6rem;
+    --fs-800: 3.2rem;
     --fs-700: 2.4rem;
     --fs-600: 2rem;
     --fs-500: 1.8rem;
@@ -167,7 +167,7 @@ const basicStyles = css`
 
   /* FLOW UTILITY */
   .flow > *:where(:not(:first-child)) {
-    margin-block-start: var(--flow-space, 1.6rem);
+    margin-block-start: var(--flow-space, 1em);
   }
 
   .flow-space--small {

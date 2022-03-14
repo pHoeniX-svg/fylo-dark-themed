@@ -1,4 +1,4 @@
-import { Features, Header } from './components';
+import { Features, Header, Highlight } from './components';
 import { GlobalContainer, GlobalStyle } from './globals';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <Header />
       <GlobalContainer as='main'>
         <Features />
-        {/* <Highlight/> */}
+        <Highlight />
         {/* <Testimonials/ */}
       </GlobalContainer>
       {/* Footer */}
