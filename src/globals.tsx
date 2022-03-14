@@ -14,7 +14,7 @@ const basicStyles = css`
 
     /* font-sizes */
     --fs-900: 5.6rem;
-    --fs-800: 4rem;
+    --fs-800: 3.6rem;
     --fs-700: 2.4rem;
     --fs-600: 2rem;
     --fs-500: 1.8rem;
@@ -172,6 +172,10 @@ const basicStyles = css`
 
   .flow-space--small {
     --flow-space: 1rem;
+  }
+
+  .section {
+    margin-block-start: 15rem;
   }
 `;
 

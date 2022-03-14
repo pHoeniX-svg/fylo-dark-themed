@@ -5,6 +5,9 @@ const Container = styled.header`
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; */
+  max-width: var(--max-width, 128rem);
+  margin-inline: auto;
+  padding-inline: var(--spacer, 2em);
   font-family: var(--ff-accent);
 `;
 
@@ -33,7 +36,7 @@ const Hero = styled.section`
   display: grid;
   place-items: center;
   max-width: 90ch;
-  margin: 0 auto;
+  margin-inline: auto;
   padding-inline: 3em;
   text-align: center;
 

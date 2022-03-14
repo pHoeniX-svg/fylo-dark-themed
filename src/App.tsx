@@ -1,5 +1,5 @@
 import { Features, Header } from './components';
-import { GlobalContainer, GlobalStyle } from './styles';
+import { GlobalContainer, GlobalStyle } from './globals';
 
 function App() {
   return (
@@ -7,8 +7,8 @@ function App() {
       <Header />
       <GlobalContainer as='main'>
         <Features />
-        {/* Highlight */}
-        {/* Testimonials */}
+        {/* <Highlight/> */}
+        {/* <Testimonials/ */}
       </GlobalContainer>
       {/* Footer */}
       <GlobalStyle />
