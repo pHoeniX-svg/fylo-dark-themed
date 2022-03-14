@@ -6,25 +6,25 @@ const data = {
       id: 'iqwjrepjqp',
       title: 'Access your files, anywhere',
       body: 'The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.',
-      image: '/src/images/icon-access-anywhere.svg',
+      image: 'images/icon-access-anywhere.svg',
     },
     {
       id: 'qidfwjf2fh',
       title: 'Security you can trust',
       body: '2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.',
-      image: '/src/images/icon-security.svg',
+      image: 'images/icon-security.svg',
     },
     {
       id: '2o3p3pe3powow',
       title: 'Real-time collaboration',
       body: 'Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.',
-      image: '/src/images/icon-collaboration.svg',
+      image: 'images/icon-collaboration.svg',
     },
     {
       id: '263p3pe3powow',
       title: 'Store any type of file',
       body: "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
-      image: '/src/images/icon-any-file.svg',
+      image: 'images/icon-any-file.svg',
     },
   ],
   testimonials: [
@@ -33,7 +33,7 @@ const data = {
       author: {
         name: 'Satish Patel',
         role: 'Founder & CEO, Huddle',
-        image: '/src/images/profile-1.jpg',
+        image: 'images/profile-1.jpg',
       },
       body: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
     },
@@ -42,7 +42,7 @@ const data = {
       author: {
         name: 'Bruce McKenzie',
         role: 'Founder & CEO, Huddle',
-        image: '/src/images/profile-2.jpg',
+        image: 'images/profile-2.jpg',
       },
       body: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
     },
@@ -51,7 +51,7 @@ const data = {
       author: {
         name: 'Iva Boyd',
         role: 'Founder & CEO, Huddle',
-        image: '/src/images/profile-3.jpg',
+        image: 'images/profile-3.jpg',
       },
       body: 'Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.',
     },

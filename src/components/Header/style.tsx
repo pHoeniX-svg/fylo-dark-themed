@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.header`
-  /* background-image: url('/src/images/bg-curvy-mobile.svg');
+  /* background-image: url('images/bg-curvy-mobile.svg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; */

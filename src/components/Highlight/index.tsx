@@ -1,4 +1,5 @@
 import { FaArrowCircleRight } from 'react-icons/fa';
+import Image from '~src/images/illustration-stay-productive.png';
 import { Container, GridContainer } from './style';
 
 const Highlight = () => {
@@ -6,10 +7,7 @@ const Highlight = () => {
     <Container aria-labelledby='highlight' className='section'>
       <GridContainer>
         <div>
-          <img
-            src='/src/images/illustration-stay-productive.png'
-            alt='stay productive'
-          />
+          <img src={Image} alt='stay productive' />
         </div>
         <div className='highlight__info flow'>
           <h2 id='highlight'>Stay productive, wherever you are</h2>
