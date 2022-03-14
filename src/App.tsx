@@ -1,9 +1,19 @@
-import { useState } from 'react';
+import { Features, Header, Highlight } from './components';
+import { GlobalContainer, GlobalStyle } from './globals';
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className='App'></div>;
+  return (
+    <>
+      <Header />
+      <GlobalContainer as='main'>
+        <Features />
+        <Highlight />
+        {/* <Testimonials/ */}
+      </GlobalContainer>
+      {/* Footer */}
+      <GlobalStyle />
+    </>
+  );
 }
 
 export default App;
