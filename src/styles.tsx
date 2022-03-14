@@ -1,4 +1,4 @@
-import { createGlobalStyle, css } from 'styled-components';
+import styled, { createGlobalStyle, css } from 'styled-components';
 
 const basicStyles = css`
   :root {
@@ -22,6 +22,12 @@ const basicStyles = css`
     --fs-300: 1.4rem;
     --fs-200: 1.2rem;
     --fs-100: 1rem;
+
+    --fw-700: 700;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
 
     --ff-primary: 'Open Sans', sans-serif;
     --ff-accent: 'Raleway', sans-serif;
@@ -60,6 +66,7 @@ const basicStyles = css`
   /* Set core body defaults */
   body {
     min-height: 100vh;
+    color: hsl(var(--clr-100));
     background-color: hsl(var(--clr-800));
     font-family: var(--ff-primary);
     font-size: var(--fs-300);
@@ -99,6 +106,11 @@ const basicStyles = css`
   /* A elements that don't have a class get default styles */
   a:not([class]) {
     text-decoration-skip-ink: auto;
+  }
+
+  // reset the default link colors
+  a {
+    color: inherit;
   }
 
   /* Inherit fonts for inputs and buttons */
@@ -163,8 +175,14 @@ const basicStyles = css`
   }
 `;
 
+const GlobalContainer = styled.div`
+  max-width: var(--max-width, 128rem);
+  margin-inline: auto;
+  padding-inline: var(--spacer, 2em);
+`;
+
 const GlobalStyle = createGlobalStyle`
   ${basicStyles}
 `;
 
-export { GlobalStyle };
+export { GlobalStyle, GlobalContainer };

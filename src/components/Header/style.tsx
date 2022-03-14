@@ -1,11 +1,18 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.header``;
+const Container = styled.header`
+  /* background-image: url('/src/images/bg-curvy-mobile.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  font-family: var(--ff-accent);
+`;
 
 const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-block: 2em;
 
   [role='list'] {
     display: flex;
@@ -18,7 +25,23 @@ const Nav = styled.nav`
   }
 `;
 
-const ImgWrapper = styled.div`
-  width: 15rem;
+const NavLogo = styled.div`
+  width: 13rem;
 `;
-export { Wrapper, Nav, ImgWrapper };
+
+const Hero = styled.section`
+  display: grid;
+  place-items: center;
+  max-width: 90ch;
+  margin: 0 auto;
+  padding-inline: 3em;
+  text-align: center;
+
+  h1 {
+    font-size: var(--fs-800);
+  }
+  p {
+    font-size: var(--fs-600);
+  }
+`;
+export { Container, Nav, NavLogo, Hero };
